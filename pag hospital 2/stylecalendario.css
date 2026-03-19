@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9be2c1;
+}
+
+header {
+    background-color: #ccf0e0be;
+    padding: 10px 0;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {   
+    color: #ffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-content {
+    max-width: 200px;
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 20px;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    grid-template-rows: repeat(5, 1fr); /* Reducir el número de filas */
+    gap: 5px;
+    padding: 10px; /* Ajustar el espacio interior */
+}
+
+.month-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    background-color: #ddd;
+    border-bottom: 1px solid #ccc;
+}
+
+.day {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+
+
+

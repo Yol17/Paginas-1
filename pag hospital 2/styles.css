@@ -1,0 +1,150 @@
+.logo-container {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+.logo-circle {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%; 
+    background-color: #40cfb0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 0 20px #40cfb0;
+}
+
+.logo-circle img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/*/logo/*/
+
+
+
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9be2c19a;
+}
+
+header {
+    border-radius: 50px;
+    background-color: #ccf0e0be;
+    padding: 10px 0;
+}
+
+nav ul {
+    border-radius: 30px;
+    box-shadow: 0 0 100px #2bf18e;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {   
+    color: #ffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#hero {
+    background-image: url('img/fondo.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #57eb94;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-size: 48px; /* Tamaño de la palabra */
+    color: #4ce4a5; /* Color del texto visible */
+    -webkit-text-stroke: 2px rgb(35, 129, 85); /* Grosor y color del trazo del texto para navegadores estándar */
+    text-shadow: 0 0 5px #40cfb0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6ef0a0;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2bf18e;
+    box-shadow: 0 0 10px#2bf18e;
+    animation:  50ms;
+}
+
+#features {
+    box-shadow: 0 0 100px #93e7bd;
+    background-color: #fff;
+}
+
+.feature-card {
+
+    padding-bottom: 5px;
+    margin-left: 15%;
+    box-shadow: 0 0 10px #000000;
+    width: 70%;
+    height: 20%;
+}
+
+.feature-icono {
+    width: 10%;
+    height: 10%;
+    padding-top: 15px;
+}
+
+footer{
+    background-color: #a2f8bc;
+    padding: 20px;
+}
+
+#historia-fundador{
+    padding-top: 20px;
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 0 10px #40cfb0;
+    background-color: #6ef0a0;
+}
+
+#socialico {
+    padding-top: 30px;
+    display: inline block;
+    width: 50px;
+    height: 50px;
+}
+
+

@@ -1,0 +1,1 @@
+C:\Users\yoell\OneDrive\Escritorio\Proyectos de Paginas\PaginaCios\bin\Release\net8.0\publish\web.config

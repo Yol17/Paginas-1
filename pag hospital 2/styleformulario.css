@@ -1,0 +1,57 @@
+/* Estilos para el formulario de consultas */
+#consultas {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    padding: 50px; /* Espaciado interno */
+    margin: 20px auto; /* Centrado horizontal y espacio externo */
+    max-width: 600px; /* Ancho máximo del formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+#consultas h2 {
+    font-size: 24px; /* Tamaño del título */
+    color: #333; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espacio entre grupos de campos */
+}
+
+label {
+    display: block; /* Mostrar etiquetas en una línea separada */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 5px; /* Espacio inferior */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; /* Ancho completo del campo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #7a7a7a; /* Borde del campo */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el borde en el ancho total */
+}
+
+textarea {
+    resize: vertical; /* Permitir redimensionamiento vertical */
+}
+
+button[type="submit"] {
+    background-color: #7cf0aa; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de tipo mano */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+button[type="submit"]:hover {
+    background-color: #2bf18e; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilos adicionales para el formulario según el diseño general */
+/* Puedes agregar más estilos aquí según sea necesario */

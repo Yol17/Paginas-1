@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerolínea - Tu Viaje Comienza Aquí</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/pngegg.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Cabecera con logo y navegación -->
+    <header>
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="">AEROLINEA</a>
+            </div>
+    
+            <!-- Navegación -->
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Vuelos</a></li>
+                    <li><a href="#">Mi Reserva</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="login.html" class="login-btn">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <!-- Banner promocional -->
+    <section class="banner" class="hidden">
+
+    </section>
+
+    <!-- Sección de búsqueda de vuelos -->
+    <section class="flight-search">
+        <h2>Buscar Vuelos</h2>
+        <form>
+            <label for="origen">Origen:</label>
+            <input type="text" id="origen" placeholder="Ciudad de origen">
+
+            <label for="destino">Destino:</label>
+            <input type="text" id="destino" placeholder="Ciudad de destino">
+
+            <label for="fecha">Fecha de ida:</label>
+            <input type="date" id="fecha">
+
+            <label for="fecha-vuelta">Fecha de vuelta:</label>
+            <input type="date" id="fecha-vuelta">
+
+            <button type="submit">Buscar Vuelos</button>
+        </form>
+    </section>
+
+    <!-- Ofertas de vuelos -->
+    <section class="offers">
+        <h2>Ofertas Exclusivas</h2>
+        <div class="offer-grid">
+            <div class="offer">
+                <img src="img/imagen4.jpg" alt="Destino 1">
+                <p>Desde ARS 165,105 - Ida y Vuelta</p>
+            </div>
+            <div class="offer">
+                <img src="img/imagen4.jpg" alt="Destino 2">
+                <p>Desde ARS 310,739 - Ida y Vuelta</p>
+            </div>
+            <div class="offer">
+                <img src="img/imagen4.jpg" alt="Destino 3">
+                <p>Desde ARS 474,147 - Ida y Vuelta</p>
+            </div>
+            <div class="offer">
+                <img src="img/imagen4.jpg" alt="Destino 4">
+                <p>Desde ARS 1,300,666 - Ida y Vuelta</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios adicionales -->
+    <section class="additional-services">
+        <h2>Servicios Adicionales</h2>
+        <div class="services-grid">
+            <div class="service">
+                <img src="servicio1.jpg" alt="Compra Equipaje">
+                <p>Compra Equipaje</p>
+            </div>
+            <div class="service">
+                <img src="servicio2.png" alt="Assist Card">
+                <p>Assist Card</p>
+            </div>
+            <div class="service">
+                <img src="servicio3.png" alt="Booking.com">
+                <p>Booking.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>© 2024 Aerolínea. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Color de fondo general */
+}
+
+header {
+    background-image: url('fondohead.png'); /* Ruta a la imagen de fondo del encabezado */
+    background-size: cover;
+    background-position: center;
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo-container {
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre el logo y el título */
+}
+
+.logo-circle {
+    box-shadow: 0px 0px 20px #40cfb0;
+    width: 80px; /* Tamaño del círculo del logo */
+    height: 80px;
+    border-radius: 50%; /* Borde redondeado del círculo */
+    background-color: rgba(64, 207, 176, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-circle img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Espacio entre elementos del menú */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.barra{
+    background-color: #40cfb0;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 50%;
+    height: 100px;
+}
+section {
+    padding: 50px;
+}
+
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto del pie de página */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.redes-sociales img {
+    width: 30px; /* Tamaño de los iconos de redes sociales */
+    margin-right: 10px; /* Espacio entre iconos */
+}

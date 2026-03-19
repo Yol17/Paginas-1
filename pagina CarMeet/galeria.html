@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <header>
+        <h1>Galería</h1>
+    </header>
+    <script src="scripts/botonimg.js"></script>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Entradas</a></li>
+            <li><a href="donde_estamos.html">Dónde estamos</a></li>
+        </ul>
+    </nav>
+    <main id="galeria_de_imagenes">
+        <section>
+            <section>
+            
+                <div class="gallery-item1" onclick="mostrarImagen('fotos/auto2.jpg')">
+                    <img src="fotos/marcas/marca1.png" alt="marca 1">
+                </div>
+                <div class="gallery-item1" onclick="mostrarImagen('fotos/auto1.jpg')">
+                    <img src="fotos/marcas/marca2.png" alt="marca 2">
+                </div>
+                <div class="gallery-item1" onclick="mostrarImagen('fotos/auto3.jpg')">
+                    <img src="fotos/marcas/marca3.jpg" alt="marca 3">
+                </div>
+                <div class="gallery-item1" onclick="mostrarImagen('fotos/auto4.jpg')">
+                    <img src="fotos/marcas/marca4.png" alt="marca 4">
+                </div>
+                <div class="gallery-item1" onclick="mostrarImagen('fotos/auto5.jpg')">
+                    <img src="fotos/marcas/marca5.png" alt="marca 5">
+                </div>
+                <div class="gallery-item1" onclick="mostrarImagen('fotos/auto6.jpg')">
+                    <img src="fotos/marcas/marca6.png" alt="marca 6">
+                </div>
+                <div class="gallery-item1" onclick="mostrarImagen('fotos/auto7.jpg')">
+                    <img src="fotos/marcas/marca7.png" alt="marca 7">
+                </div>
+                <div class="gallery-item1" onclick="mostrarImagen('fotos/auto8.jpg')">
+                    <img src="fotos/marcas/marca8.png" alt="marca 8">
+                </div>
+            
+            </section>
+        </section>
+    </main>
+    <section id="galeria">
+        <div class="gallery-item">
+            <img src="fotos/auto1.jpg" alt="Auto 1">
+        </div>
+        
+       
+    </section>
+    <footer>
+
+        <p>&copy; 2023 Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function mostrarImagen(urlImagen) {
+            var galeria = document.getElementById("galeria");
+            galeria.innerHTML = '<div class="gallery-item"><img src="' + urlImagen + '" alt="Auto"></div>';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styleformulario.css">
+    <title>Hospital Beteman</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="btn"><a href="index.html">Inicio</a></li>
+                <li class="btn"><a href="calendario.html">Calendario</a></li>
+                <li class="btn"><a href="horarios.html">Horarios</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="consultas">
+        <h2>Consulta Médica</h2>
+        <form action="submit.php" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar Consulta</button>
+            </div>
+        </form>
+    </section>
+    
+</body>
+</html>

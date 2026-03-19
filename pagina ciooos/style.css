@@ -1,0 +1,236 @@
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #004aad, #002147);
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    animation: slideDown 1.5s ease-out;
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    animation: fadeIn 2s ease;
+}
+
+header .logo img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+    animation: bounceIn 2s ease;
+}
+
+/* Animación del header */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Sección de servicios */
+.services {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #004aad;
+    position: relative;
+    animation: fadeIn 1.5s ease;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.grid-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s, box-shadow 0.4s;
+    animation: fadeUp 1.5s ease forwards;
+    opacity: 0;
+}
+
+.grid-item h3 {
+    color: #002147;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.grid-item p {
+    color: #555;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Formulario de contacto */
+.contact {
+    background-color: #e0e0e0;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    color: #004aad;
+    margin-bottom: 40px;
+    animation: fadeIn 1.5s ease;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form label {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #004aad;
+}
+
+form button {
+    padding: 15px;
+    background-color: #004aad;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: background-color 0.4s;
+}
+
+form button:hover {
+    background-color: #002147;
+}
+
+form button:active {
+    transform: scale(0.95);
+}
+
+/* Footer */
+footer {
+    background-color: #002147;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    animation: slideUp 1.5s ease-out;
+}
+
+footer .social-media a {
+    margin: 0 15px;
+    display: inline-block;
+    animation: fadeIn 2s ease;
+}
+
+footer .social-media img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+footer .social-media img:hover {
+    transform: rotate(360deg);
+}
+
+footer .contact-info p {
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Medias queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .grid-item {
+        font-size: 0.9rem;
+    }
+}

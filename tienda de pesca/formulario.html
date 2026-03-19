@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesca y caza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="background-container"></div>
+    
+    <header>
+        <h1>Tienda YCorp</h1>
+    </header>
+
+    <br>
+
+    <nav class="head-container">
+        <a href="index.html">Inicio</a>
+        <a href="#">Cañas de Pescar</a>
+        <a href="#">Carretes</a>
+        <a href="#">Señuelos</a>
+    </nav>
+    
+    
+    <br>
+    <br>    
+    <br>
+    <br> 
+    <br> 
+
+    <div class="container">
+        <h1>Consultas</h1>
+        <form action="#" method="post">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="telefono">Número de teléfono:</label>
+            <input type="text" id="telefono" name="telefono">
+    
+            <label for="pais">País/Ubicación:</label>
+            <input type="text" id="pais" name="pais">
+    
+            <label for="tipo_consulta">Tipo de consulta:</label>
+            <input type="text" id="tipo_consulta" name="tipo_consulta" required>
+    
+            <label for="descripcion">Descripción del problema o pregunta:</label>
+            <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+    
+            <label for="preferencia_contacto">Preferencia de contacto:</label><br>
+            <input type="radio" id="email_contacto" name="preferencia_contacto" value="email" checked>
+            <label for="email_contacto">Correo electrónico</label>
+            <input type="radio" id="telefono_contacto" name="preferencia_contacto" value="telefono">
+            <label for="telefono_contacto">Teléfono</label><br><br>
+    
+            <label for="horario_contacto">Horario de contacto preferido:</label>
+            <input type="text" id="horario_contacto" name="horario_contacto">
+    
+            <input type="submit" value="Enviar Consulta">
+        </form>
+    </div>
+    
+    
+</body>
+</html>

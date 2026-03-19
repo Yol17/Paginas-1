@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Simple</title>
+    <link rel="stylesheet" href="stylecalendario.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-item"><a href="index.html">Inicio</a></li>
+                <li class="nav-item"><a href="#">Horarios</a></li>
+                <li class="nav-item"><a href="#">Servicios</a></li>
+                <li class="nav-item"><a href="#">Consultas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="calendar-container">
+        <div class="calendar" id="calendar"></div>
+        <button class="arrow-btn left-arrow" onclick="changeMonth('prev')">&#8249;</button>
+        <button class="arrow-btn right-arrow" onclick="changeMonth('next')">&#8250;</button>
+    </div>
+
+    <script src="scriptcalendario.js"></script>
+</body>
+</html>
+
+

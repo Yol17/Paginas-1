@@ -1,0 +1,238 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:url();
+    background-attachment: scroll;
+    background-color: #000000;
+}
+
+
+header {
+    background-color: rgba(87, 144, 209, 0.719);
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #1898ca;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.video{
+    border: solid 0px;
+}
+.gallery-item {
+    display: inline-block;
+    margin-right: 20px;
+    display: flex;
+    
+}
+
+.gallery-item img {
+    width: 600px;
+    height: 300px;
+}
+
+#galeria {
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 32.4%;
+    margin-top: 3%;
+    
+    
+}
+
+#color_donde_estamos {
+    background-color: rgb(0, 0, 0);
+}
+
+#donde_estamos {
+    color: white;
+}
+
+.gallery-item1 {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 7%;
+}
+
+.gallery-item1 img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+#galeria_de_imagenes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+#titulo_galeria {
+    color: white;
+}
+#btnPlayPause {
+    display: inline-block;
+    background-color: #1898ca;
+    width: 150px;
+    height: 50px;
+    border-end-start-radius:20px;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    border-end-end-radius: 20px;
+
+ }
+
+footer{
+    height: 20px;
+    background-color: rgba(87, 144, 209, 0.719);;
+
+}
+
+.ticket-form {
+    background-color: #000; 
+    color: #fff; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.ticket-form h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #8cc8f7; 
+}
+
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #fff; 
+    color: #000; 
+}
+
+button {
+    background-color: #8cc8f7; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6badda; 
+}
+
+#totalAmount {
+    font-weight: bold;
+    color:#8cc8f7;
+} 
+
+.form-column {
+    width: 45%; 
+    float: left;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.form-column + .form-column {
+    margin-left: 10%; 
+}
+
+
+.form-column h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de ingresar */
+#enterButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px; 
+}
+
+#enterButton:hover {
+    background-color: #0056b3;
+}
+
+ 
